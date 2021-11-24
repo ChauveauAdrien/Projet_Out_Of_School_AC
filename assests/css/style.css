@@ -1,0 +1,55 @@
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #ADA18E; }
+.My-Color-Theme-2-hex { color: #6E665A; }
+.My-Color-Theme-3-hex { color: #EDDDC2; }
+.My-Color-Theme-4-hex { color: #FAE9CD; }
+.My-Color-Theme-5-hex { color: #D4C5AE; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(173, 161, 142, 1); }
+.My-Color-Theme-2-rgba { color: rgba(110, 102, 90, 1); }
+.My-Color-Theme-3-rgba { color: rgba(237, 221, 194, 1); }
+.My-Color-Theme-4-rgba { color: rgba(250, 233, 205, 1); }
+.My-Color-Theme-5-rgba { color: rgba(212, 197, 174, 1); }
+
+/* Common */
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.container-fluid {
+    padding: 0;
+}
+/* Header */
+.logo {
+    font-family: 'Tourney', cursive;
+    color: white;
+    background-color: #ADA18E;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.menu {
+    background-color: #ADA18E;
+}
+.menu a {
+    color: white;
+    margin: 0 25px 0 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.menu a:hover {
+    color: #6E665A;
+}
+button {
+    background: #000;
+}
+/* banner */
+.banner img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+/* Content */
