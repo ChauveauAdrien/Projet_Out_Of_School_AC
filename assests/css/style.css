@@ -1,55 +1,64 @@
-/* Color Theme Swatches in Hex */
-.My-Color-Theme-1-hex { color: #ADA18E; }
-.My-Color-Theme-2-hex { color: #6E665A; }
-.My-Color-Theme-3-hex { color: #EDDDC2; }
-.My-Color-Theme-4-hex { color: #FAE9CD; }
-.My-Color-Theme-5-hex { color: #D4C5AE; }
+/* Paramètres généraux */
 
-/* Color Theme Swatches in RGBA */
-.My-Color-Theme-1-rgba { color: rgba(173, 161, 142, 1); }
-.My-Color-Theme-2-rgba { color: rgba(110, 102, 90, 1); }
-.My-Color-Theme-3-rgba { color: rgba(237, 221, 194, 1); }
-.My-Color-Theme-4-rgba { color: rgba(250, 233, 205, 1); }
-.My-Color-Theme-5-rgba { color: rgba(212, 197, 174, 1); }
-
-/* Common */
 body {
     font-family: 'Kanit', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: #262F64;
 }
+
 a, a:hover {
     text-decoration: none;
+    color: white;
 }
+
 .container-fluid {
+    margin: 0;
     padding: 0;
 }
+
 /* Header */
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .logo {
-    font-family: 'Tourney', cursive;
-    color: white;
-    background-color: #ADA18E;
-    font-size: 3rem;
-    letter-spacing: 5px;
-}
-.menu {
-    background-color: #ADA18E;
-}
-.menu a {
-    color: white;
-    margin: 0 25px 0 25px;
-    font-size: 1.5rem;
+    font-size: 65px;
+    font-family: 'Tourney';
     font-weight: 600;
 }
+
+.menu a{
+    padding: 0 50px 0 50px;
+}
 .menu a:hover {
-    color: #6E665A;
+    background: -webkit-linear-gradient(#0011FF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-button {
-    background: #000;
+
+.banner {
+    width: 100%;
+    max-width: 100%;
 }
-/* banner */
-.banner img {
+
+.ban {
     width: 100%;
     max-width: 100%;
     height: auto;
+    position: relative;
 }
-/* Content */
+
+.inner-banner {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+}
+
+.inner-banner h1 {
+    font-size: 100px;
+    text-shadow: 00px 00px 20px blue;
+}
+
+
