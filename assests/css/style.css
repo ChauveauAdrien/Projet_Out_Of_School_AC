@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     background-color: #262F64;
 }
@@ -17,7 +17,15 @@ a, a:hover {
     padding: 0;
 }
 
-/* Header */
+.img-fluid {
+    margin: 0%;
+    padding: 0; 
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*----------------------------- Header --------------------------------*/
 
 .header {
     background-color: rgba(0, 0, 0, 0.8);
@@ -37,6 +45,8 @@ a, a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/*----------------------------- Banner --------------------------------*/
 
 .banner {
     width: 100%;
@@ -61,4 +71,83 @@ a, a:hover {
     text-shadow: 00px 00px 20px blue;
 }
 
+/*----------------------------- Separator --------------------------------*/
+.separator {
+    width: 40%;
+    height: 5px;
+    background: gray;
+    border-radius: 100px;
+    
+}
+/*----------------------------- Main--------------------------------*/
 
+ h2 {
+    font-size: 35px;
+    font-family: 'Tourney';
+    text-align: center;
+}
+
+.txt1, .txt2, .txt3 {
+    text-align: center;
+    margin-top: 30px;
+}
+ span {
+    font-weight: 600;
+    color: rgb(91, 62, 223);
+}
+
+/*----------------------------- Footer --------------------------------*/
+ #footer {
+     background: rgb(34, 34, 34);
+ }
+.sous-footer {
+    background: black;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+.footer-title {
+    margin: auto;
+    text-align: center;
+    font-family: 'Tourney'
+}
+.sources {
+    margin: auto;
+    text-align: center;
+}
+.sources ul {
+    list-style: none;
+    line-height: 20px;
+}
+.sources a {
+    font-size: 15px;
+}
+.sources a:hover {
+    text-decoration: underline;
+}
+.lien {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact {
+    font-size: 30px;
+}
+.contact a:hover {
+    color: rgb(62, 62, 246);
+}
+.mentions a:hover {
+    color: rgb(62, 62, 246);
+}
+
+.reseaux {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.instagram {
+    float: right;
+}
+.facebook {
+    float: left;
+}
