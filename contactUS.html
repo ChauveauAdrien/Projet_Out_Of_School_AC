@@ -15,36 +15,43 @@
 <!-- Contenu du site -->
 <body>
 <!-- Header -->
-<header class="container-fluid text-center header">
+<header class="container-fluid text-center header-contact">
     <h1 class="logo pt-4">Les Femmes et l'Informatique</h1>
     <nav class="navbar navbar-expand-sm justify-content-center pb-4 menu">
         <a href="actualités.html">Un peu d'Actus</a>
         <a href="Histoire.html">Elles ont marqué l'Histoire</a>
-        <a href="#contact">Contactez-Nous</a>
+        <a href="#footer" class="contactez">Contactez-Nous</a>
     </nav>
 </header>
-<!-- Separator -->
-<div class="container-fluid m-auto mt-5 mb-5 separator"></div>
-<!-- Fin separator -->
+
 <!-- Formulaire -->
 <div class="container contact_us mb-5">
     <div class="container mt-3 pt-4">
     <h2>Contactez-Nous</h2>
-    <form action="/action_page.php">
-        <div class="mb-3 mt-3">
-            <label for="email">NOM</label>
-            <input type="email" class="form-control" id="email" placeholder="Entrer votre NOM" name="email">
+    <div class="row">
+        <div class="col-md-6 col-lg-6 p-0">
+            <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+                <label for="email">NOM</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrer votre NOM" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Prénom</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Entrer votre Prénom" name="pswd">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrer votre adresse mail" name="email">
+            </div>
+            <label for="comment">Envoyer un message</label>
+            <input type="password" class="form-control mb-1" id="pwd" placeholder="Objet" name="pswd">
+            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Entrer votre message"></textarea>
+        <button type="submit" class="btn btn-dark mt-3 mb-3 envoyer">Envoyer</button>
+        </form>
         </div>
-        <div class="mb-3">
-            <label for="pwd">Prénom</label>
-            <input type="password" class="form-control" id="pwd" placeholder="Entrer votre Prénom" name="pswd">
-        </div>
-        <label for="comment">Envoyer un message</label>
-        <input type="password" class="form-control mb-1" id="pwd" placeholder="Objet" name="pswd">
-        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Entrer votre message"></textarea>
-      <button type="submit" class="btn btn-dark mt-3 mb-3 envoyer">Envoyer</button>
-    </form>
-  </div>
+        <div class="col-md-6 col-lg-6 p-0"></div>
+    </div>
+    </div>
 </div>
 
 
@@ -57,18 +64,18 @@
         <div class="col-md-4 col-lg-4 col-sm-4 sources">
             <h4>Sources</h4>
             <ul>
-                <li><a href="#">https.www.site.lesfemmesetl'informatique.fr</a></li>
-                <li><a href="#">https.www.site.lesfemmesetl'informatique.fr</a></li>
-                <li><a href="#">https.www.site.lesfemmesetl'informatique.fr</a></li>
-                <li><a href="#">https.www.site.lesfemmesetl'informatique.fr</a></li>
-                <li><a href="#">https.www.site.lesfemmesetl'informatique.fr</a></li>
-                <li><a href="#">https.www.site.lesfemmesetl'informatique.fr</a></li>
+                <li><a href="#">https://www.grandeecolenumerique.fr/ressources/les-femmes-et-le-numerique/chiffres-cles-sur-les-femmes-et-la-tech</a></li>
+                <li><a href="#">https://talentsdunumerique.com/le-numerique-femmes/elles</a></li>
+                <li><a href="#">https://talentsdunumerique.com/actu-informatique/ingenieuses2020-les-nominees</a></li>
+                <li><a href="#">https://information.tv5monde.com/terriennes/les-oubliees-du-numerique-ou-pourquoi-si-peu-de-femmes-dans-l-informatique-336598</a></li>
+                <li><a href="#">https://www.ritimo.org/Les-femmes-et-l-informatique-histoire-d-une-exclusion-enjeux-de-la</a></li>
+                <li><a href="#">https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal</a></li>
             </ul>
         </div>
         <div class="col-md-4 col-lg-4 col-sm-4 ">
             <div class="row row-cols-1 lien">
                 <div class="col contact"><a href="./contactUS.html">Contacts</a></div>
-                <div class="col mentions"><a href="#">Mentions Légales</a></div>
+                <div class="col mentions"><a href="./mentionslégales.html">Mentions Légales</a></div>
             </div>
             <div class="row row-cols-3 reseaux">
                 <div class="col"><a href="#"><svg class="instagram" xmlns="http://www.w3.org/2000/svg" width="31.518" height="31.51" viewBox="0 0 31.518 31.51">

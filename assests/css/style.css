@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Kanit', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     background-color: #262F64;
 }
@@ -25,7 +25,7 @@ a, a:hover {
     height: auto;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------
-@@@ Actualités
+@@@ Actualités  et Elles ont marqué l'histoire
 ---------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*----------------------------- Header --------------------------------*/
@@ -35,7 +35,7 @@ a, a:hover {
 }
 
 .logo {
-    font-size: 65px;
+    font-size: 40px;
     font-family: 'Tourney';
     font-weight: 600;
 }
@@ -44,6 +44,16 @@ a, a:hover {
     padding: 0 50px 0 50px;
 }
 .menu a:hover {
+    background: -webkit-linear-gradient(#0011FF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.actus {
+    background: -webkit-linear-gradient(#0011FF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.histoire {
     background: -webkit-linear-gradient(#0011FF, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,7 +80,7 @@ a, a:hover {
 }
 
 .inner-banner h1 {
-    font-size: 100px;
+    font-size: 60px;
     text-shadow: 00px 00px 20px blue;
 }
 
@@ -80,9 +90,7 @@ a, a:hover {
     height: 5px;
     background: gray;
     border-radius: 100px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 200px;
+    
 }
 /*----------------------------- Main--------------------------------*/
 
@@ -98,7 +106,7 @@ a, a:hover {
 }
  span {
     font-weight: 600;
-    color: rgb(52, 23, 184);
+    color: rgb(131, 122, 172);
 }
 
 /*----------------------------- Footer --------------------------------*/
@@ -124,7 +132,7 @@ a, a:hover {
     line-height: 20px;
 }
 .sources a {
-    font-size: 15px;
+    font-size: 10px;
 }
 .sources a:hover {
     text-decoration: underline;
@@ -136,7 +144,7 @@ a, a:hover {
     text-align: center;
 }
 .contact {
-    font-size: 30px;
+    font-size: 20px;
 }
 .contact a:hover {
     color: rgb(52, 23, 184);
@@ -156,17 +164,33 @@ a, a:hover {
 .facebook {
     float: left;
 }
+
+.voirplus {
+    background: #39437c;
+    color: white;
+    margin-bottom: 20px;
+}
 /* ----------------------------------------------------------------------------------------------------------------------------------------
 @@@ Contact
 ---------------------------------------------------------------------------------------------------------------------------------------- */
 .contact_us {
-background: rgb(52, 23, 184);
+background: rgb(81, 83, 226);
 border-radius: 5px;
 }
-
+.header-contact {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
 .envoyer:hover {
-    background: white;
-    color: black;
+    background: #39437c;
+}
+
+.contactez {
+    background: -webkit-linear-gradient(#0011FF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -174,13 +198,14 @@ border-radius: 5px;
 @@@ EllesOntMarquésl'Histoire
 ---------------------------------------------------------------------------------------------------------------------------------------- */
 
-.separator2 {
-    
-}
-
 .header1 {
     background: black;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+}
+
+.lien-wiki:hover {
+    text-decoration: underline;
+    color: rgb(52, 23, 184);
 }
